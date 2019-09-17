@@ -15,7 +15,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Flixter</a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
@@ -37,6 +37,7 @@
 <% if alert.present? %>
   <p class="alert alert-danger"><%= alert %></p>
 <% end %>
+<%= yield %>
   <div id="footer">
       <div class="container">
         <b>Teachers</b>
@@ -44,6 +45,6 @@
         <%= link_to 'Teach a Course', new_instructor_course_path %>
         </div>
       </div>
-    <%= yield %>
+    
   </body>
 </html>
