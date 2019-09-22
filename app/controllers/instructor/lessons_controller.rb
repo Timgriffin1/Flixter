@@ -18,8 +18,8 @@ class Instructor::LessonsController < ApplicationController
       return render plain: 'Unauthorized', status: :unauthorized
     end
   end
-   helper_method :current_section
 
+  helper_method :current_section
   def current_section
     @current_section ||= Section.find(params[:section_id])
   end
