@@ -4,6 +4,7 @@ class Instructor::CoursesController < ApplicationController
   def new
     @course = Course.new
   end 
+  
   def show
     @course = Course.find(params[:id])
   end
