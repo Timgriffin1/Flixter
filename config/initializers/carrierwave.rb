@@ -1,7 +1,7 @@
 # config/initializers/carrierwave.rb
 
 CarrierWave.configure do |config|
-   config.storage    = :aws
+  config.storage    = :aws
   config.aws_bucket = ENV["AWS_BUCKET"]
   config.aws_acl    = "public-read"
 
