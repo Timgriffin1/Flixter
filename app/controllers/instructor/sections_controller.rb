@@ -1,6 +1,6 @@
 class Instructor::SectionsController < ApplicationController
-  before_action :authenticate_user!
-  before_action :require_authorized_for_current_course
+   before_action :authenticate_user!
+   before_action :require_authorized_for_current_course
 
   def new
     @section = Section.new
@@ -28,7 +28,6 @@ class Instructor::SectionsController < ApplicationController
     params.require(:section).permit(:title)
   end
 end
- 
  
  
  

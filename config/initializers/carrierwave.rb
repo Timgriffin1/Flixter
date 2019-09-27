@@ -6,8 +6,8 @@ CarrierWave.configure do |config|
   config.aws_acl    = "public-read"
 
   config.aws_credentials = {
-      access_key_id:     ENV["AKIAUO5ZQIF2ITHKQWVM"],
-      secret_access_key: ENV["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"],
-      region:            ENV["us-east-1"]
+      access_key_id:     ENV["access_key_id"],
+      secret_access_key: ENV["secret_access_key"],
+      region:            ENV["region"]
     }
   end
