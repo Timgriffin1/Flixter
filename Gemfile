@@ -84,6 +84,9 @@ end
 
  gem 'stripe'
 
+ gem 'ranked-model'
+ 
+
  
 
  
