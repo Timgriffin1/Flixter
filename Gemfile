@@ -88,6 +88,9 @@ end
  
  gem 'jquery-ui-rails'
 
+ gem 'ranked-model'
+ 
+
 
  
 
