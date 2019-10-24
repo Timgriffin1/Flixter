@@ -88,8 +88,8 @@ end
  
  gem 'jquery-ui-rails'
 
- gem 'ranked-model'
- 
+ gem 'font-awesome-rails'
+
 
 
  
